@@ -1,0 +1,144 @@
+#bg{
+   background-color: black;
+    background-image: url(/public/Assets/Login/loginbg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh ;
+}
+
+#box1{
+    
+    width: 150vh;
+    height: 83vh;
+    background-image: url(/public/Assets/Login/login.png);
+    background-size: cover; 
+    border-radius: 18px;
+    position: absolute;
+    top: 50px;
+    left: 190px;
+  
+
+}
+
+#box2{
+    width: 410px;
+    height: 83vh;
+    position: absolute;
+    right: 0%;
+    background-image: none;
+    background-color: rgb(69, 67, 67);
+    border-radius: 0px 18px 18px 0px;
+    
+}
+
+#box11{
+    height: fit-content;
+    width: fit-content;
+    position: absolute;
+    bottom: 7%;
+    left: 3%;
+    background:local;
+    font-size: 60px;
+    color: white;
+    font-family: 'Gantari', sans-serif;
+  
+}
+.login_logo{
+    background: transparent url(/public/Assets/Login/Artboard.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 40px;
+    left: 92px;
+    width: 244px;
+    height: 91px;
+}
+.login_text{
+    position: absolute;
+    top: 80px;
+    left: 168px;
+    background: local;
+    text-align: center;
+    font: 28px/280px Abril Fatface;
+    color:#FFAA17 ; 
+    font-weight: bolder;
+    font-size: xx-large;
+}
+.login_form Form {
+    /* background-image: none; */
+    background: none;
+    position: absolute;
+    top: 240px;
+    left: 80px;
+    width: 400px;
+}
+.btn {
+    position: absolute;
+    top: 400px;
+    left: 80px;
+    width: 270px;
+    background: none;
+    background-color:#FAA81D ;
+    border-radius: 8px;
+    display: flex;
+}
+
+.btn :nth-child(1){
+    width: 100px;
+    height: 20px;
+    border-radius: 10px;   
+    background: none;
+    background-color: #FAA81D;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-weight: bolder;
+}
+.btn :nth-child(2){
+    width: 140px;
+    height: 30px;
+    border-radius: 5px;
+    background: none;
+    background-color:  rgb(77, 75, 75);
+    border:1px solid #FAA81D ;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    
+}
+.line{
+    width: 320px;
+    border: 1px solid #c4c4c4  ;
+    position: absolute;
+    top: 570px;
+    left: 45px;
+}
+.footer{
+    position: absolute;
+    top: 573px;
+    left: 45px;
+    display: flex;
+    font-size: 8px;
+}
+.footer .copyrights{
+    background: none;
+    color: white;
+
+}
+.footer .tc{
+    background: none;
+    color: white;
+}
+.register{
+    position: absolute;
+    top: 440px;
+    left: 100px;
+    font-size:10px;
+    color: #ffff;
+}
+.registerSpan{
+color:#FAA81D;
+font-size:small;
+
+}
